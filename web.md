@@ -15,6 +15,7 @@
 ## CSRF / XSRF - Cross Site Request Forgery
 
 [Article de cloudfare](https://www.cloudflare.com/es-es/learning/security/threats/cross-site-request-forgery/)
+
 [Article de Fortinet](https://www.fortinet.com/lat/resources/cyberglossary/csrf)
 
 Moltes vegades passa que un lloc web al que estem visitant accedeix a un altre lloc web al qual tenim una sessió activa. Per exemple, un lloc web que té incrustat un video provinent d'una plataforma de vídeos en *streaming*. Si l'usuari té una sessió activa en aquesta segona plataforma el vídeo es podrà visualitzar.
@@ -24,6 +25,8 @@ Moltes vegades passa que un lloc web al que estem visitant accedeix a un altre l
 **Com veure les dades de sessió activa que tinc en el meu navegador?**
 
 **Què podem fer a nivell usuari en un navegador?**
+
+**SECRET_KEY FLASK PARAM**
 
 ### Variants - CSRF emmagatzemat
 
