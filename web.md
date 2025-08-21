@@ -21,6 +21,7 @@
 Moltes vegades passa que un lloc web al que estem visitant accedeix a un altre lloc web al qual tenim una sessió activa. Per exemple, un lloc web que té incrustat un video provinent d'una plataforma de vídeos en *streaming*. Si l'usuari té una sessió activa en aquesta segona plataforma el vídeo es podrà visualitzar.
 
 **Per a que funcioni és necessari que l'usuari tingui una sessió activa al lloc web objectiu?**
+Sí.
 
 **Com veure les dades de sessió activa que tinc en el meu navegador?**
 
@@ -36,9 +37,7 @@ El codi maliciós està dintre del lloc web (etiqueta `img` o `iframe`).
 
 #### Política d'execució d'script només si prové del mateix origen
 
-Les versions més recents dels navegadors les implementen: Es base en el fet de que un navegador només pot permetre que s'executin scripts d'una primera pàgina per realitzar accions en una segona pàgina només si tots dos llocs provenen del mateix origen.
-
-Sin embargo, con las versiones más recientes de navegadores web, esto no tendría éxito debido a la política del mismo origen, que dicta que un navegador solo puede permitir que los scripts en la primera página obtengan acceso a los datos en la segunda página si ambas páginas provienen del mismo origen.
+Les versions més recents dels navegadors les implementen: Es basa en el fet de que un navegador només pot permetre que s'executin scripts d'una primera pàgina per realitzar accions en una segona pàgina només si tots dos llocs provenen del mateix origen.
 
 #### Tokens de sessió
 
